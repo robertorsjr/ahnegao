@@ -1,0 +1,6 @@
+export { default as Header } from './Header'
+export { default as PostContent } from './PostContent'
+export { default as PostFooter } from './PostFooter'
+export { default as Footer } from './Footer'
+export { default as Adverts } from './Adverts'
+export { default as Separator } from './Separator'
