@@ -21,12 +21,13 @@ export const Image = styled.div`
   margin-top: 5px;
 `;
 
-export const Link = styled.div`
+export const Link = styled.a`
   font-family: "Carter One", display;
   font-size: 18px;
   font-weight: 700;
   color: white;
   margin-right: 48px;
+  text-decoration: none;
   cursor: pointer;
   &:hover{ 
     color: ${Colors.fontHeaderHover}
