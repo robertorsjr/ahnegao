@@ -1,7 +1,11 @@
-import { HomePage } from './pages'
+import { BrowserRouter } from 'react-router-dom'
+import Routes from './routes'
+
 function App() {
   return (
-    <HomePage />
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
   );
 }
 

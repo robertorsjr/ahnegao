@@ -20,4 +20,5 @@ export const Text = styled.div`
   font-size: 20px;
   font-weight: 500;
   color: white;
+  cursor: pointer;
 `;

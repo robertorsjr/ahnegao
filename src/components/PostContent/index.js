@@ -4,7 +4,6 @@ import { Container, Line, Title, Date, HtmlContent } from './styles';
 import PostFooter from '../PostFooter';
 
 function PostContent({ item }) {
-  console.log(item)
   return (
     <Container>
       <Title href={item?.link}>{item.title.rendered}</Title>
