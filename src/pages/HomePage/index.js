@@ -6,7 +6,6 @@ import { getPosts } from '../../services/posts'
 
 function HomePage() {
   const [posts, setPosts] = useState()
-  const [offset, setOffset] = useState(0)
   const { page = 1 } = useParams();
   const history = useHistory()
 
